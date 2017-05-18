@@ -18,8 +18,8 @@ Set some common styles for the body of the page
  - font size to 16px
 */
 body {
-  background-color: #000000;
-  color: white;
+  background-color: PowderBlue;
+  color: black;
   font-family: helvetica;
   font-size: 16px;
 }
@@ -43,6 +43,8 @@ style the element with the id of header-statement to have centered text
 */
 #header-statement {
   text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 
@@ -78,11 +80,11 @@ style the elements with a class of card
 .card {
   width: 20%;
   height: 300px;
-  margin:2.5%;
+  margin: 2.5%;
   padding-top: 15%;
   float: left;
   text-align: center;
-  background-color: white;
+  background-color: PowderBlue;
   background-size: contain;
   color: black;
   background-repeat: no-repeat;
@@ -99,9 +101,10 @@ style the element with the id of hero
 
 #hero {
   width: 100%;
-  height: 450px;
+  height: 600px;
   background-size: cover;
-  background-image: url(/Users/danford/Desktop/travel_site_styled/assets/images/travel_hero.jpg);
+  background-image: url(../../assets/images/food_header.jpg);
+  background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -111,8 +114,8 @@ style the element with the id of hero
  set the background image to (spain_flag.svg) in our assets/images directory
 */
 
-#spain {
-  background-image: url("../../assets/images/spain_flag.svg");
+#coopers {
+  background-image: url("../../assets/images/coopers.jpg");
 }
 
 /*
@@ -120,8 +123,8 @@ style the element with the id of hero
  set the background image to (italy_flag.svg) in our assets/images directory
 */
 
-#italy {
-  background-image: url("../../assets/images/italy_flag.svg");
+#harry {
+  background-image: url("../../assets/images/harry.jpg");
 }
 
 /*
@@ -129,8 +132,8 @@ style the element with the id of hero
  set the background image to (aruba_flag.svg) in our assets/images directory
 */
 
-#aruba {
-  background-image: url("../../assets/images/aruba_flag.svg");
+#bone {
+  background-image: url("../../assets/images/bonefish.jpg");
 }
 
 /*
@@ -138,8 +141,8 @@ style the element with the id of hero
  set the background image to (chile_flag.svg) in our assets/images directory
 */
 
-#chile {
-  background-image: url("../../assets/images/chile_flag.svg");
+#cheesecake {
+  background-image: url("../../assets/images/cheesecake.jpg");
 }
 
 /*
@@ -168,7 +171,7 @@ style the element with the id of hero
 */
 
 #navbar {
-  float: right;
+  float: left;
 }
 
  /*
@@ -182,6 +185,7 @@ style the element with the id of hero
   padding: 0px;
   list-style-type: none;
   list-style: none;
+  font-weight: bold;
 }
 
 /*
@@ -207,7 +211,7 @@ style the element with the id of hero
 
 #masthead a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 /*
@@ -241,7 +245,8 @@ style the element with the id of hero
 table {
   border: 2px solid black;
   border-collapse: collapse;
-  width: 100%;
+  width: 75%;
+  margin-left: 125px;
 }
 
 /*
@@ -270,9 +275,9 @@ th {
   - make the background color white
 */
 
-#travel-table {
+#restaurant-table {
   color: black;
-  background-color: white;
+  background-color: PowderBlue;
 }
 
 /*
@@ -280,7 +285,7 @@ th {
   - center align the text
 */
 
-#travel-table h3 {
+#restaurant-table h3 {
   text-align: center;
 }
 
@@ -305,6 +310,6 @@ th {
 */
 
 #social-links a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
